@@ -1,0 +1,1752 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220221172340">
+    <title>Каталог</title>
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        <header class="header">
+    <div class="header__top top-header">
+        <div class="top-header__container">
+            <!--------menu------------>
+            <nav class="top-header__menu menu-top-header">
+                <ul data-da=".burger-menu__body,992" class="menu-top-header__list menu-top-header__list_burger">
+                    <li class="menu-top-header__item menu-top-header__item_burger">
+                        <a href="#" class="menu-top-header__link menu-top-header__link_burger __icon-arrow">Каталог товаров</a></li>
+                    <li class="menu-top-header__item"><a href="#" class="menu-top-header__link">О нас</a></li>
+                    <li class="menu-top-header__item"><a href="#" class="menu-top-header__link">Оплата и доставка</a></li>
+                    <li class="menu-top-header__item"><a href="#" class="menu-top-header__link">Новости</a></li>
+                    <li class="menu-top-header__item"><a href="#" class="menu-top-header__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <!--------pk&burger------------>
+            <a href="" class="top-header__user __icon-pk">Личный кабинет</a>
+
+            <!-- -menu-top-mobile --->
+            <nav class="top-header__mobile  menu-top-mobile">
+                <ul class="menu-top-mobile__list" data-spollers>
+                    <li class="menu-top-mobile__item">
+                        <button type="button" data-spoller class="menu-top-mobile__icon menu-top-mobile__phone-btn  __icon-phone"></button>
+                        <ul class="menu-top-mobile__phones phones-top-mobile">
+                            <li><a href="tel:+78007774967" class="phones-top-mobile__phone">8-800-777-49-67</a></li>
+                            <li><a href="tel:+78007774967" class=" phones-top-mobile__phone">8-800-777-49-66</a></li>
+                            <li><a href="tel:+78007774967" class="phones-top-mobile__phone">8-800-777-49-65</a></li>
+                            <li><a href="tel:+78007774967" class="phones-top-mobile__phone">8-800-777-49-68</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-top-mobile__item"><a href=""
+                            class="top-header__user menu-top-mobile__icon  __icon-pk"></a></li>
+                    <li class="menu-top-mobile__item"><a href=""
+                            class="cart-header__favorite menu-top-mobile__icon __icon-love"></a></li>
+                    <li class="menu-top-mobile__item"><a href=""
+                            class="actions-header__cart cart-header__icon  __icon-cart">
+                            <span>0</span>
+                        </a></li>
+                </ul>
+            </nav>
+            <nav class="burger-menu">
+                <button type="button" class="icon-menu burger-menu__button" id="burger"> <span></span> </button>
+                <div class="burger-menu__body">
+                    <div class="burger-menu__catalog"></div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--------Search------------>
+    <div class="header__body body-header">
+        <div class="body-header__container">
+            <a href="home.html" class="body-header__logo __icon-logo"></a>
+            <div data-da=".catalog-header__container,560" class="body-header__search">
+                <form action="" class="search-header search-header__mobile">
+                    <button class="search-header__btn __icon-search" type="submit"></button>
+                    <input autocomplete="off" type="text" name="form[]" placeholder="Поиск"
+                        class="search-header__input">
+                </form>
+            </div>
+            <!--------location------------>
+            <div class="body-header__actions actions-header">
+                <address class="actions-header__location __icon-location">Москва</address>
+                <!--------phones------------>
+                <div class="actions-header__phones  phones-header">
+                    <div data-spollers class="phones-header__items">
+                        <div class="phones-header__item">
+                            <a href="tel:+78007774967" class="phones-header__phone">8-800-777-49-67</a>
+                            <button type="button" data-spoller
+                                class="phones-header__arrow __icon-slider-arrow"></button>
+                            <ul class="phones-header__list">
+                                <li> <a href="tel:+78007774967" class="phones-header__phone">8-800-777-49-66 </a>
+                                </li>
+                                <li><a href="tel:+78007774967" class="phones-header__phone">8-800-777-49-65 </a></li>
+                                <li><a href="tel:+78007774967" class="phones-header__phone">8-800-777-49-68 </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <button type="button" class="phones-header__callback">Заказать звонок</button>
+                </div>
+                <!--------cart------------>
+                <a href="" class="cart-header__favorite __icon-love"></a>
+                <div class="actions-header__cart cart-header">
+                    <div class="cart-header__icon __icon-cart">
+                        <span>0</span>
+                    </div>
+                    <div class="cart-header__body">
+                        <div class="cart-header__summ">0 р.</div>
+                        <a href="" class="cart-header__link">Оформить заказ</a>
+                    </div>
+                </div>
+            </div> <!--  actions-header -->
+        </div>
+        <!--body-header__container -->
+    </div> <!-- body-header -->
+    <!---------------------- catalog-header------------------->
+    <div class="header__catalog catalog-header">
+        <div class="catalog-header__container">
+            <nav data-da=".burger-menu__catalog, 992" class="catalog-header__menu menu-catalog">
+                <button class="menu-catalog__back __icon-back" type="button">Назад</button>
+                <ul class="menu-catalog__list">
+                    <li class="menu-catalog__item"><a href="" class="menu-catalog__link" data-parent="1">Каталог ножей</a></li>
+                    <li class="menu-catalog__item"><a data-parent="2" href="" class="menu-catalog__link">Клинковое оружие</a></li>
+                    <li class="menu-catalog__item"><a data-parent="3" href="" class="menu-catalog__link">Сувенирные изделия</a></li>
+                    <li class="menu-catalog__item"><a data-parent="4" href="" class="menu-catalog__link">Фонари ARMYTEK</a></li>
+                    <li class="menu-catalog__item"><a data-parent="5" href="" class="menu-catalog__link">Сопуствующие товары</a></li>
+                </ul>
+                <div class="menu-catalog__sub-menu sub-menu-catalog">
+
+                    <div class="sub-menu-catalog__container">
+
+                        <div class="sub-menu-catalog__block" hidden data-submenu="1">
+                            <button class="sub-menu-catalog__back __icon-back" type="button">Назад</button>
+                            <div class="sub-menu-catalog__column">
+                                <a href="catalog.html" class="sub-menu-catalog__category">Каталог ножей</a>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"><a href=""
+                                            class="sub-menu-catalog__link">Разделочные ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href=""
+                                            class="sub-menu-catalog__link">Туристические ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи охотничьи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Булатные ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из дамаска</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Тактического назначения</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Метательные ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Мачетеи кукри</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи кухонные</a></li>
+                                </ul>
+                                <a href="" class="sub-menu-catalog__all">Смотреть все</a>
+                            </div>
+                            <div class="sub-menu-catalog__column">
+                                <a href="" class="sub-menu-catalog__category">Производство ножей</a>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи АИР</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи ЗИК</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи ЗЗОСС</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи РОСоружие</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи Оружейник</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Булат Сергея Баранова</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Булат Андрея Умерова</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи Златко</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи Стиль-М</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Оружейная компания</a></li>
+                                </ul>
+                                <a href="" class="sub-menu-catalog__all">Смотреть все</a>
+                            </div>
+                            <div class="sub-menu-catalog__column">
+                                <a href="" class="sub-menu-catalog__category">Ножи по маркам стали</a>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали 40х102С2М</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали 95х18</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали 100х13м</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали 110х18м-ШД</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали ЭИ-107 ТЦ</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали 50х14МФ</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали AUS-8</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали К340</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали M390</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из стали ЭП-766</a></li>
+                                </ul>
+                                <a href="" class="sub-menu-catalog__all">Смотреть все</a>
+                            </div>
+                            <div class="sub-menu-catalog__column">
+                                <a href="" class="sub-menu-catalog__category">Заточка и полировка ножей</a>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Паста ГОИ</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Алмазная паста</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Бруски и камни для заточки</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Заточные системы</a></li>
+                                </ul>
+                                <a href="" class="sub-menu-catalog__all">Смотреть все</a>
+                            </div>
+
+                            <div class="sub-menu-catalog__column">
+                                <a href="" class="sub-menu-catalog__category">Ножевая мастерская</a>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"> <a href="" class="sub-menu-catalog__link">Ножевые клинки</a></li>
+                                    <li class="sub-menu-catalog__item"> <a href="" class="sub-menu-catalog__link">Заготовки для ножей</a></li>
+                                    <li class="sub-menu-catalog__item"> <a href="" class="sub-menu-catalog__link">Литье для ножей</a></li>
+                                    <li class="sub-menu-catalog__item"> <a href="" class="sub-menu-catalog__link">Материалы для рукоятей</a></li>
+                                    <li class="sub-menu-catalog__item"> <a href="" class="sub-menu-catalog__link">Уход за рукоятиями ножей</a></li>
+                                </ul>
+                                <a href="" class="sub-menu-catalog__all">Смотреть все</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-catalog__sub-menu sub-menu-catalog">
+                    <div class="sub-menu-catalog__container">
+                        <div hidden data-submenu="2" class="sub-menu-catalog__block">
+                            <button class="sub-menu-catalog__back __icon-back" type="button">Назад</button>
+                            <div class="sub-menu-catalog__column">
+                                <a href="" class="sub-menu-catalog__category">Клинковое оружие</a>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Разделочные ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Туристические ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи охотничьи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Булатные ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи из дамаска</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Тактического назначения</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Метательные ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Мачете и кукри</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи кухонные</a></li>
+                                </ul>
+                                <a href="" class="sub-menu-catalog__all">Смотреть все</a>
+                            </div>
+                            <div class="sub-menu-catalog__column">
+                                <a href="" class="sub-menu-catalog__category">Производство ножей</a>
+                                <ul class="sub-menu-catalog__list">
+                                     <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи  АИР</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи ЗИК</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи ЗЗОСС</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи РОСоружие</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Ножи Оружейник</a></li>
+                                </ul>
+                                <a href="" class="sub-menu-catalog__all">Смотреть все</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+        <main class="page page-inner">
+            <div class="page-inner__container">
+                <!-- breadcrumps -->
+                <section class="breadcrumps">
+                    <h1 class="breadcrumps__title">Разделочные ножи</h1>
+                    <nav class=" breadcrumps__nav">
+                        <ul class="breadcrumps__list">
+                            <li class="breadcrumps__item">
+                                <a href="home.html" class="breadcrumps__link">Главная</a>
+                            </li>
+                            <li class="breadcrumps__item">
+                                <span class="breadcrumps__current">Разделочные ножи</span>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+                <!-- catalog__control select -->
+                <div class="catalog__control select">
+                    <select name="form[]" id="" class="catalog__form form">
+                        <option value="1" selected>По популярности</option>
+                        <option value="2">По названию</option>
+                        <option value="3">По цене</option>
+                        <option value="4">По рейтингу</option>
+                    </select>
+                </div>
+            </div>
+            <!-- catalog -->
+            <div class="catalog">
+                <div class="catalog__container">
+                    <div class="catalog__body">
+                        <!-- catalog__filter -->
+                        <details open>
+                            <summary class="__icon-slider-arrow">
+
+                        <div data-spollers="1180" class="catalog__filter filter-catalog">
+                            <div class="filter-catalog__price">
+                                <h2 class="filter-catalog__title">Фильтр товаров</h2>
+                             </summary>
+                                <p>
+                                <div data-spollers="1180" class="filter-catalog__items">
+                                    <div class="filter-catalog__price price-filter">
+                                        <button type="button" data-spoller
+                                            class="price-filter__title __icon-slider-arrow">Цена</button>
+                                        <div data-range class="price-filter__body">
+                                            <div class="price-filter__inputs">
+                                                <label class="price-filter__label">
+                                                    <input data-range-from="0" type="number" value="1000" name="form[]"
+                                                        autocomplete="off" class="price-filter__input">
+                                                    <span>руб.</span>
+                                                </label>
+                                                <label class="price-filter__label">
+                                                    <input data-range-to="10000" type="number" value="9000"
+                                                        name="form[]" autocomplete="off" class="price-filter__input">
+                                                    <span>руб.</span>
+                                                </label>
+                                            </div>
+                                            <div data-range-item class="price-filter__range"></div>
+                                        </div>
+                                    </div>
+                                    <div class="filter-catalog__manufacture manufacture-filter-catalog">
+                                        <button data-spoller type="button"
+                                            class="manufacture-filter-catalog__title __icon-slider-arrow">Производство</button>
+                                        <div class="manufacture-filter-catalog__wrapper">
+                                            <div class="manufacture-filter-catalog__body">
+
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_1"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        АиР<small>(250)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_2"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Булат Сергея Баранова<small>(25)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_3"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Булат Умерова<small>(265)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_4"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        ЗЗОСС<small>(18)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_5"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        ЗИК<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_6"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        ЗЛАТКО<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_7"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        ЗлатПрофит<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_8"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        ЗОК<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_9"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        НБК<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_10"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        НИКОН<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_11"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Оружейник<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_12"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        РОСоружие<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="d_13"
+                                                            type="checkbox" value="1">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        СТИЛЬ-М<small>(170)</small> </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="filter-catalog__manufacture manufacture-filter-catalog">
+                                        <button data-spoller type="button"
+                                            class="manufacture-filter-catalog__title __icon-slider-arrow">Сталь</button>
+                                        <div class="manufacture-filter-catalog__wrapper">
+                                            <div class="manufacture-filter-catalog__body">
+                                                <!-- manufacture-filter-catalog__body -->
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_1"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        100Х13М<small>(250)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_2"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        110Х18М-ШД<small>(25)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_3"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        40Х10С2М (ЭИ-107)<small>(265)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_4"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        50Х14МФ<small>(18)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_5"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        95Х18<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_6"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        AUS-8<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_7"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        ELMAX<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_8"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        RWL-34<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_9"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Дамаск<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_10"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Литой булат<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_11"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Литой булат<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_12"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Литой булат<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="b_13"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        М390<small>(170)</small> </label>
+                                                </div>
+                                            </div><!-- manufacture-filter-catalog__body -->
+                                        </div> <!--  manufacture-filter-catalog__wrapper -->
+                                    </div> <!-- manufacture-filter-catalog -->
+                                    <div class="filter-catalog__manufacture manufacture-filter-catalog">
+                                        <button data-spoller type="button"
+                                            class="manufacture-filter-catalog__title __icon-slider-arrow">Рукоять</button>
+                                        <div class="manufacture-filter-catalog__wrapper">
+                                            <div class="manufacture-filter-catalog__body">
+                                                <!-- manufacture-filter-catalog__body -->
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_1"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Mercorne<small>(250)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_2"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Березовый кап<small>(25)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_3"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Бубинго<small>(265)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_4"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Граб<small>(18)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_5"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Дуб<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_6"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Кап<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_7"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Комбинированная<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_8"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Каштан<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_9"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Квартопрен<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_10"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Кожа-Металл<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="c_11"
+                                                            type="checkbox" value="3">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Комбинированная<small>(170)</small> </label>
+                                                </div>
+
+                                            </div><!-- manufacture-filter-catalog__body -->
+                                        </div> <!--  manufacture-filter-catalog__wrapper -->
+                                    </div> <!-- manufacture-filter-catalog -->
+
+                                    <div class="filter-catalog__manufacture manufacture-filter-catalog">
+
+                                        <button data-spoller type="button"
+                                            class="manufacture-filter-catalog__title __icon-slider-arrow">Гарда и
+                                            тыльник</button>
+                                        <div class="manufacture-filter-catalog__wrapper">
+                                            <div class="manufacture-filter-catalog__body">
+                                                <!-- manufacture-filter-catalog__body -->
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_1"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Алюминий<small>(250)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_2"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Латунь<small>(25)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_3"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Литой Барс<small>(265)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_4"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Литой Барс<small>(18)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_5"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Литой Пума<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_6"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Литой Пума<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_7"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Литье<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_8"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Металлический<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_9"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Нержавеющая сталь<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_10"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Текстолит<small>(170)</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="f_11"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Комбинированная<small>(170)</small> </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- catalog__filter -->
+                                    <div class="filter-catalog__manufacture manufacture-filter-catalog">
+                                        <button data-spoller type="button"
+                                            class="manufacture-filter-catalog__title __icon-slider-arrow">Золочение</button>
+                                        <div class="manufacture-filter-catalog__wrapper">
+                                            <div class="manufacture-filter-catalog__body">
+                                                <!-- manufacture-filter-catalog__body -->
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="g_1"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Золочение клинка</label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-manufacture">
+                                                    <label class="checkbox-manufacture__label">
+                                                        <input class="checkbox-manufacture__input" id="g_2"
+                                                            type="checkbox" value="4">
+                                                        <span class="checkbox-manufacture__text"></span>
+                                                        Золочение рисунка на клинке</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- catalog__filter -->
+
+                                    <!-- price---------------------------filter-sizes---------------------->
+                                    <div class="filter-catalog__manufacture manufacture-filter-catalog price-filter-sizes">
+                                        <button data-spoller type="button"
+                                        class="manufacture-filter-catalog__title price-filter-sizes__title __icon-slider-arrow">Общая длина, мм</button>
+                                        <div data-range class="price-filter__body price-filter-sizes__body">
+                                            <div class="price-filter__inputs price-filter-sizes__inputs">
+                                                <label class="price-filter__label price-filter-sizes__label">
+                                                    <input data-range-from="0" type="number" value="0" name="form[]"
+                                                        autocomplete="off" class="price-filter__input price-filter-sizes__input">
+                                                </label>
+                                                <label class="price-filter__label price-filter-sizes__label">
+                                                    <input data-range-to="100" type="number" value="100"
+                                                        name="form[]" autocomplete="off" class="price-filter__input price-filter-sizes__input">
+                                                </label>
+                                            </div>
+                                            <div data-range-item class="price-filter__range  price-filter-sizes__range"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="filter-catalog__manufacture manufacture-filter-catalog price-filter-sizes">
+                                        <button data-spoller type="button"
+                                        class="manufacture-filter-catalog__title price-filter-sizes__title __icon-slider-arrow">Длина клинка, мм</button>
+                                        <div data-range class="price-filter__body price-filter-sizes__body">
+                                            <div class="price-filter__inputs price-filter-sizes__inputs">
+                                                <label class="price-filter__label price-filter-sizes__label">
+                                                    <input data-range-from="0" type="number" value="0" name="form[]"
+                                                        autocomplete="off" class="price-filter__input price-filter-sizes__input">
+                                                </label>
+                                                <label class="price-filter__label price-filter-sizes__label">
+                                                    <input data-range-to="100" type="number" value="100"
+                                                        name="form[]" autocomplete="off" class="price-filter__input price-filter-sizes__input">
+                                                </label>
+                                            </div>
+                                            <div data-range-item class="price-filter__range  price-filter-sizes__range"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="filter-catalog__manufacture manufacture-filter-catalog price-filter-sizes">
+                                        <button data-spoller type="button"
+                                        class="manufacture-filter-catalog__title price-filter-sizes__title __icon-slider-arrow">Ширина клинка, мм</button>
+                                        <div data-range class="price-filter__body price-filter-sizes__body">
+                                            <div class="price-filter__inputs price-filter-sizes__inputs">
+                                                <label class="price-filter__label price-filter-sizes__label">
+                                                    <input data-range-from="0" type="number" value="0" name="form[]"
+                                                        autocomplete="off" class="price-filter__input price-filter-sizes__input">
+                                                </label>
+                                                <label class="price-filter__label price-filter-sizes__label">
+                                                    <input data-range-to="100" type="number" value="100"
+                                                        name="form[]" autocomplete="off" class="price-filter__input price-filter-sizes__input">
+                                                </label>
+                                            </div>
+                                            <div data-range-item class="price-filter__range  price-filter-sizes__range"></div>
+                                        </div>
+                                    </div>
+                                      <!-- price-filter-sizes -->
+
+                                      <div class="filter-catalog__manufacture manufacture-filter-catalog">
+                                        <button data-spoller type="button"
+                                            class="manufacture-filter-catalog__title __icon-slider-arrow">Рейтинг</button>
+                                        <div class="manufacture-filter-catalog__wrapper">
+                                            <div class="manufacture-filter-catalog__body">
+                                                <!-- manufacture-filter-catalog__body -->
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-raiting">
+                                                    <label class="checkbox-raiting__label">
+                                                        <input class="checkbox-raiting__input" id="r_1"
+                                                            type="checkbox" value="5">
+                                                            <span class="checkbox-raiting__false"></span>
+                                                            <span class="checkbox-raiting__text">★★★★★</span><small>5/5</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-raiting">
+                                                    <label class="checkbox-raiting__label">
+                                                        <input class="checkbox-raiting__input" id="r_2"
+                                                            type="checkbox" value="4">
+                                                            <span class="checkbox-raiting__false"></span>
+                                                            <span class="checkbox-raiting__text">★★★★</span><small>4/5</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-raiting">
+                                                    <label class="checkbox-raiting__label">
+                                                        <input class="checkbox-raiting__input" id="r_3"
+                                                            type="checkbox" value="3">
+                                                            <span class="checkbox-raiting__false"></span>
+                                                            <span class="checkbox-raiting__text">★★★</span><small>3/5</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-raiting">
+                                                    <label class="checkbox-raiting__label">
+                                                        <input class="checkbox-raiting__input" id="r_4"
+                                                            type="checkbox" value="2">
+                                                        <span class="checkbox-raiting__false"></span>
+                                                        <span class="checkbox-raiting__text">★★</span> <small>2/5</small> </label>
+                                                </div>
+                                                <div class="manufacture-filter-catalog__checkbox checkbox-raiting">
+                                                    <label class="checkbox-raiting__label">
+                                                        <input class="checkbox-raiting__input" id="r_5"
+                                                            type="checkbox" value="1">
+                                                            <span class="checkbox-raiting__false"></span>
+                                                            <span class="checkbox-raiting__text">★</span><small>1/5</small> </label>
+                                                </div>
+
+                                            </div><!-- manufacture-filter-catalog__body -->
+                                        </div> <!--  manufacture-filter-catalog__wrapper -->
+                                    </div>
+                                </div>
+                            </p>
+
+
+                        </details>
+
+
+                                    <!-- -----------catalog__items ---------------------------->
+                                    <div class="catalog__items">
+                                        <article class="product-card">
+                                            <div class="product-card__sales">-50%</div>
+                                            <div class="product-card__img"><a href="product.html" class="product-card__img-link">
+ <picture><source srcset="img/product/1.webp" type="image/webp"><img src="img/product/1.jpg" alt="Нож Снегирь"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href="product.html"
+                                                        class="product-card__title-link">Нож Снегирь</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">3 865 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__sales">-25%</div>
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__sales">-25%</div>
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+                                        <article class="product-card">
+                                            <div class="product-card__img"><a href="" class="product-card__img-link">
+ <picture><source srcset="img/catalog/knifes/knif1.webp" type="image/webp"><img src="img/catalog/knifes/knif1.jpg" alt="Нож Лиса"></picture></a> 
+                                            </div>
+                                            <div class="product-card__body">
+                                                <h4 class="product-card__title"><a href=""
+                                                        class="product-card__title-link">Нож
+                                                        Лиса</a>
+                                                </h4>
+                                                <div class="product-card__options options-product-card">
+                                                    <div class="options-product-card__sizes">95х18</div>
+                                                    <div class="options-product-card__materials">Орех, Алюминий</div>
+                                                </div>
+                                                <div class="product-card__value">
+                                                    <!-- rating__set -->
+                                                    <div class="product-card__rating rating" data-total-value="3">
+                                                        <div class="rating__item" data-item-value="5">★</div>
+                                                        <div class="rating__item" data-item-value="4">★</div>
+                                                        <div class="rating__item" data-item-value="3">★</div>
+                                                        <div class="rating__item" data-item-value="2">★</div>
+                                                        <div class="rating__item" data-item-value="1">★</div>
+                                                    </div>
+                                                    <div class="rating__reviews"><a href="">12 отзывов</a></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-card__footer footer-product-card">
+                                                <div class="footer-product-card__price">2 719 р.</div>
+                                                <div class="footer-product-card__compare __icon-compare"></div>
+                                                <div class="footer-product-card__likes __icon-love"></div>
+                                            </div>
+                                        </article>
+
+                                        <!--------------- catalog-footer ---------------------->
+                                        <div class="catalog__footer catalog-footer">
+                                            <a href="" class="catalog-footer__more button  button-white">Показать больше
+                                            </a>
+                                            <!-- pagination -->
+                                            <div class="catalog-footer__pagination pagination">
+                                                <button type="button"
+                                                    class="pagination__arow pagination__arow-left __icon-slider-arrow _disabled"></button>
+                                                <ul class="pagination__list">
+                                                    <li class="pagination__item">
+                                                        <a href="" class="pagination__link  _active">1</a></li>
+                                                    <li class="pagination__item">
+                                                        <a href="" class="pagination__link">2</a></li>
+                                                    <li class="pagination__item">
+                                                        <a href="" class="pagination__link">3</a></li>
+                                                    <li class="pagination__item">
+                                                        <a href="" class="pagination__link">...</a></li>
+                                                    <li class="pagination__item">
+                                                        <a href="" class="pagination__link">15</a></li>
+                                                </ul>
+                                                <button type="button"
+                                                    class="pagination__arow pagination__arow-right __icon-slider-arrow"></button>
+                                            </div> <!-- pagination -->
+                                        </div>
+
+                                </div><!-- /catalog__items -->
+                            </div><!-- /catalog__body -->
+                            </div> <!--/catalog__container-->
+                        </div> <!-- /catalog -->
+        </main>
+        <div id="popup" area-hidden="true" class="popup">
+    <div class="popup__wrapper">
+        <div class="popup__content">
+            <button data-close type="button" class="popup__close"></button>
+            <div class="popup__text">
+                
+            </div>
+        </div>
+    </div>
+</div>
+        <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__content content-footer">
+            <h1 class="content-footer__title">Златоустовские ножи интернет-магазин "ЗЛАТМАКС"</h1>
+            <p class="content-footer__text">Наш интернет-магазин "ЗЛАТМАКС" предлагает Вам ножи очень высокого качества
+                из города оружейников - Златоуста. Златоустовские ножи известны и популярны среди потребителей как на
+                российским рынке, так и за рубежом: ножи охотничьи, хозяйственные, туристические, рыбацкие, складные и
+                метательные. Нож Златоуста - это идеальный друг и товарищ вповседневной жизни и в экстремальных
+                ситуациях. На многую продукцию распространяется гарантия до 10 лет - это один из главных показателей
+                качества. Для Вас на нашем сайте "Zlatmax" предложен огромный ассортимент Златоустовских ножей. Наши
+                менеджеры помогут определиться и подобрать самый лучший Златоустовский нож, ориентируясь на Ваши
+                пожелания.</p>
+        </div>
+    </div>
+    <div class="footer__body body-footer">
+        <div class="body-footer__container">
+            <div class=body-footer__row>
+                <!-- ЛИЧНЫЙ КАБИНЕТ -->
+                <div class="body-footer__nav nav-footer">
+                    <div data-spollers="768" data-one-spoller class="nav-footer__spoller spoller-nav-footer">
+                        <div class="spoller-nav-footer__item">
+                            <button data-spoller class="spoller__title">ЛИЧНЫЙ КАБИНЕТ</button>
+                            <div class="spoller-nav-footer__body">
+                                <nav class="footer-menu footer-menu-info">
+                                    <ul class="footer-menu__list">
+                                        <li class="footer-menu__item">
+                                            <a href="" class="footer-menu__link"> Личный кабинет</a>
+                                        </li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link">История
+                                                заказов</a> </li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link">Мои
+                                                закладки</a></li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link">Рассылка
+                                                новостей</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div> <!-- spoller -->
+                </div> <!-- body-footer__nav -->
+                <!-- СЛУЖБА ПОДДЕРЖКИ -->
+                <div class="body-footer__nav nav-footer">
+                    <div data-spollers="768" data-one-spoller class="nav-footer__spoller spoller-nav-footer">
+                        <div class="spoller-nav-footer__item">
+                            <button data-spoller class="spoller__title">СЛУЖБА ПОДДЕРЖКИ</button>
+                            <div class="spoller-nav-footer__body">
+                                <nav class="footer-menu footer-menu-info">
+                                    <ul class="footer-menu__list">
+                                        <li class="footer-menu__item">
+                                            <a href="" class="footer-menu__link"> Контактная информация</a>
+                                        </li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link">Возврат
+                                                товара</a> </li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link">Карта
+                                                сайта</a> </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div> <!-- spoller -->
+                </div> <!-- body-footer__nav -->
+                <!-- ДОПОЛНИТЕЛЬНО -->
+                <div class="body-footer__nav nav-footer">
+                    <div data-spollers="768" data-one-spoller class="nav-footer__spoller spoller-nav-footer">
+                        <div class="spoller-nav-footer__item">
+                            <button data-spoller class="spoller__title">ДОПОЛНИТЕЛЬНО</button>
+                            <div class="spoller-nav-footer__body">
+                                <nav class="footer-menu footer-menu-info">
+                                    <ul class="footer-menu__list">
+                                        <li class="footer-menu__item">
+                                            <a href="" class="footer-menu__link">Подарочные сертификаты</a>
+                                        </li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link"> Партнеры</a>
+                                        </li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link">Товары со
+                                                скидкой</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div> <!-- spoller -->
+                </div> <!-- body-footer__nav -->
+                <!-- ИНФОРМАЦИЯ -->
+                <div class="body-footer__nav nav-footer">
+                    <div data-spollers="768" data-one-spoller class="nav-footer__spoller spoller-nav-footer">
+                        <div class="spoller-nav-footer__item">
+                            <button data-spoller class="spoller__title">ИНФОРМАЦИЯ</button>
+                            <div class="spoller-nav-footer__body">
+                                <nav class="footer-menu footer-menu-info">
+                                    <ul class="footer-menu__list">
+                                        <li class="footer-menu__item">
+                                            <a href="" class="footer-menu__link">Златоустовские ножи в Москве и
+                                                Московской области</a>
+                                        </li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link">Ножевые
+                                                стали</a></li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link">О нас</a>
+                                        </li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link">Условия
+                                                оплаты и доставки</a></li>
+                                        <li class="footer-menu__item"></li><a href="" class="footer-menu__link">Политика
+                                            конфиденциальности</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div> <!-- spoller -->
+                </div> <!-- body-footer__nav -->
+            </div>
+            <div class=body-footer__row>
+                <!-- КОНТАКТЫ -->
+                <div class="body-footer__nav nav-footer">
+                    <div data-spollers="768" data-one-spoller class="nav-footer__spoller spoller-nav-footer">
+                        <div class="spoller-nav-footer__item">
+                            <button data-spoller class="spoller__title">КОНТАКТЫ</button>
+                            <div class="spoller-nav-footer__body">
+                                <nav class="footer-menu footer-menu-info">
+                                    <ul class="footer-menu__list">
+                                        <li class="footer-menu__item">
+                                            <a href="tel:88007774967" class="footer-menu__link __icon-phone"> 8
+                                                (800) 777-49-67</a>
+                                        </li>
+                                        <li class="footer-menu__item __icon-clock">
+                                            Пн-Пт<br>
+                                            7:00 - 16:00 (МСК)
+                                        </li>
+                                        <li class="footer-menu__item "><a href=""
+                                                class="footer-menu__link __icon-location">
+
+                                                Златоуст,<br>
+                                                ул. Шоссейная,<br>
+                                                д. 1, офис «6Б»
+                                            </a> </li>
+                                        <li class="footer-menu__item">
+                                            <a href="mailto: info@zlatmax.ru" class="footer-menu__link __icon-mail">
+                                                info@zlatmax.ru</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <!-- social-footer -->
+                                <ul class="social-footer">
+                                    <li class="social-footer__item">
+ <picture><source srcset="img/svgicons/social/Facebook.webp" type="image/webp"><img src="img/svgicons/social/Facebook.png" alt="Facebook"></picture> 
+                                        <a href="" class="social-footer__link"></a>
+                                    </li>
+                                    <li class="social-footer__item">
+ <picture><source srcset="img/svgicons/social/whatsapp.webp" type="image/webp"><img src="img/svgicons/social/whatsapp.png" alt="whatsapp.png"></picture> 
+                                        <a href="" class="social-footer__link"></a>
+                                    </li>
+                                    <li class="social-footer__item">
+ <picture><source srcset="img/svgicons/social/viber.webp" type="image/webp"><img src="img/svgicons/social/viber.png" alt="viber"></picture> 
+                                        <a href="" class="social-footer__link"></a>
+                                    </li>
+                                    <li class="social-footer__item">
+ <picture><source srcset="img/svgicons/social/telegram.webp" type="image/webp"><img src="img/svgicons/social/telegram.png" alt="telegram"></picture> 
+                                        <a href="" class="social-footer__link"></a>
+                                    </li>
+                                </ul>
+                                <!-- /.social-footer -->
+                            </div>
+                        </div>
+                    </div> <!-- spoller -->
+                </div> <!-- body-footer__nav -->
+                <!-- ПОЛЕЗНЫЕ ССЫЛКИ -->
+                <div class="body-footer__nav nav-footer">
+                    <div data-spollers="768" data-one-spoller class="nav-footer__spoller spoller-nav-footer">
+                        <div class="spoller-nav-footer__item">
+                            <button data-spoller class="spoller__title"> ПОЛЕЗНЫЕ ССЫЛКИ</button>
+                            <div class="spoller-nav-footer__body">
+                                <nav class="footer-menu footer-menu-info">
+                                    <ul class="footer-menu__list">
+                                        <li class="footer-menu__item">
+                                            <a href="" class="footer-menu__link">Способы оплаты и доставки</a>
+                                        </li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link"></a>
+                                        </li>
+                                        <li class="footer-menu__item"><a href="" class="footer-menu__link"></a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div> <!-- spoller -->
+                </div> <!-- body-footer__nav -->
+                <!-- НАША ГАРАНТИЯ -->
+                <div class="body-footer__nav nav-footer">
+                    <div data-spollers="768" data-one-spoller class="nav-footer__spoller spoller-nav-footer">
+                        <div class="spoller-nav-footer__item">
+                            <button data-spoller class="spoller__title"> НАША ГАРАНТИЯ</button>
+                            <div class="spoller-nav-footer__body">
+                                <nav class="footer-menu footer-menu-info">
+                                    <ul class="footer-menu__list">
+                                        <li class="footer-menu__item">
+                                            <a href="" class="footer-menu__link"> Контактная информация</a>
+                                        </li>
+                                        <li class="footer-menu__item footer-menu__item-text">Недовольны своей
+                                            покупкой?<br> Вы можете вернуть ее в течении 30 дней с даты получения
+                                            согласно
+                                            <a href="" class="footer-menu__link footer-menu__link-text">нашим
+                                                правилам</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div> <!-- spoller -->
+                </div> <!-- body-footer__nav -->
+                <!-- НОВОСТНАЯ РАССЫЛКА -->
+                <div class="body-footer__nav nav-footer">
+                    <div data-spollers="768" data-one-spoller class="nav-footer__spoller spoller-nav-footer">
+                        <div class="spoller-nav-footer__item">
+                            <button data-spoller class="spoller__title"> НОВОСТНАЯ РАССЫЛКА</button>
+                            <form action="#" class="spoller-nav-footer__body footer-subscribe">
+                                <label for="footer-subscribe__input" class="footer-subscribe__label">Подпишитесь прямо
+                                    сейчас!</label>
+                                <div class="footer-subscribe__line">
+                                    <input type="email" name="form[]" autocomplete="off" id="subscribe__input"
+                                        class="footer-subscribe__input" placeholder="example@gmail.com">
+                                    <button type="submit" class="footer-subscribe__button  __icon-arrow"></button>
+                                </div>
+                                <div class="footer-subscribe__checkbox footer-checkbox">
+                                    <label class="footer-checkbox__label">
+                                        <input type="checkbox" id="subscribe__checkbox" name="subscribe"
+                                            value="subscribe" class="footer-checkbox__input">
+                                        <span class="footer-checkbox__box"></span>
+                                        Я прочитал Условия соглашения и согласен с условиями</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div> <!-- body-footer__nav -->
+                </div>
+            </div>
+            <!-- offert-footer -->
+            <div class=body-footer__row>
+                <div class="offert-footer">
+                    <p class="offert-footer__text">Все материалы, размещенные на сайте, носят справочный характер и не
+                        являются
+                        публичной офертой, определяемойположениями Статьи 437 Гражданского кодекса Российской Федерации.
+                        При копировании материалов гиперссылка на <a class="offert-footer__link"
+                            href="http:\\zlatmax.ru"> www.zlatmax.ru</a> обязательна!</p>
+                    <a class="offert-footer__trademark" href="http://zlatmax.ru">Златоустовские ножи www.zlatmax.ru
+                        ©</a>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    </div>
+    </div>
+    <script src="js/app.min.js?_v=20220221172340"></script>
+</body>
+</html>
